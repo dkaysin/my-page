@@ -1,0 +1,10 @@
+.ref {
+  color: #859900;
+  cursor: pointer;
+  text-decoration: underline dotted #859900;
+}
+.ref:hover{
+  color: #eee8d5;
+  cursor: pointer;
+  text-decoration: underline dotted #eee8d5;
+}

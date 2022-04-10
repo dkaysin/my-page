@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap');
+
+.terminal {
+  border-bottom: 1.5px solid #93a1a1;
+  border-left: 1.5px solid #93a1a1;
+  border-right: 1.5px solid #93a1a1;
+  padding: 0.5em;
+  background: #002b36;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.code {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  /*color: #93a1a1;*/
+  color: #586e75;
+  font-size: 0.8em;
+  font-family: inherit;
+  white-space: pre;
+}
+
+.keywordGreen {
+  color: #859900;
+}
+
+.keywordBlue {
+  color: #268bd2;
+}
+
+.keywordGrey {
+  color: #93a1a1;
+}
+
+.footerCode {
+  padding-top: 0.5em;
+  color: #657b83;
+  font-size: 0.7em;
+  font-family: inherit;
+}
+.footerCode a{
+    color:#93a1a1;
+}
+
+.blinking { 
+  position: relative;
+  display: inline-block;
+}
+
+.blinking::after {
+  content: "";
+  position: absolute;
+  top: 0.15em;
+  right: -1em;
+  display: inline-block;
+  background-color: #657b83;
+  vertical-align: top;
+  width: 0.5em;
+  height: 1em;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  60% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.loading { 
+  position: relative;
+  display: inline-block;
+}
+
+.loading::after {
+  content: "|";
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  /*width: 0.5em;*/
+  /*height: 1em;*/
+  animation: dots 3s step-end infinite;
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  10% { content: "."; }
+  20% { content: ".."; }
+  30% { content: "..."; }
+}
