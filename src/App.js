@@ -36,7 +36,7 @@ class Main extends React.Component {
         text={text} 
         onClick={(e) => {
           e.stopPropagation();
-          this.setState({x : e.clientX, y : e.clientY});
+          this.setState({x : e.pageX, y : e.pageY});
           this.handleRefClick(i);
         }}
       />

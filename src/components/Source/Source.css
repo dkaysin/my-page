@@ -20,6 +20,9 @@
   font-family: inherit;
   white-space: pre;
 }
+.code a{
+    color:#93a1a1;
+}
 
 .keywordGreen {
   color: #859900;
