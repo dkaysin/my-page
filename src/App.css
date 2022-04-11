@@ -16,7 +16,17 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
 }
 
 .window {

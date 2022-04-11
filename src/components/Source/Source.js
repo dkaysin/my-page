@@ -10,6 +10,7 @@ const Source = ({renderRef}) => {
       <div className="code">
         {/*{}// <span className="keywordGrey">I love studying math and computer science</span><br/>*/}
         {/*<br/>*/}
+        <span className="headline">Experienced finance professional with proven track record in project management with strong quantitative background.</span>
         {LEFT_CURLY} <br/>
         {}  "<span className="keywordGrey">Programming</span>": [ <br/>
         {}    <span><span className="keywordGrey">Python</span>,        </span><span>// numpy, pandas, matplotlib</span><br/>

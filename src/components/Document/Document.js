@@ -14,8 +14,8 @@ const Document = () => {
         {/*<span>I have worn many hats as a project manager during my 6 year career in private equity.</span>
         <span>Before that, I worked in management consulting, specializing in complex financial modelling.</span>
         <span>Currently on the lookout for new investment opportunities at <a href="http://gem.capital/about"> GEM Capital</a>.</span>*/}
-        <span>Selected projects:  [TODO]</span>
-        <br/>
+        {/*<span>Selected projects:  [TODO]</span>*/}
+        {/*<br/>*/}
         <div className="line"><span><span className="position"> GEM Capital, Investment Manager</span> | Moscow → Paphos, Cyprus </span> <span>Jan 2019 – currently</span></div>
         <div className="line"><span><span className="position"> Volga Group, Analyst → Project Manager</span> | Moscow </span> <span>Dec 2014 – Dec 2018</span></div>
         <div className="line"><span><span className="position"> Ernst&Young, Consultant → Senior Consultant</span> | Moscow </span> <span>Aug 2011 – Oct 2014</span></div>
