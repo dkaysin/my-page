@@ -4,7 +4,7 @@ const Document = () => {
   return (
     <div className="document">
       <div className="page">
-        <span className="headline">Experienced finance professional with proven track record in project management with strong quantitative background.</span>
+        <span className="headline">Experienced investment professional with proven track record in project management and strong quantitative background.</span>
         <span className="chapter">Work Experience</span>
         <span>
           I have worn many hats as a project manager during my 7 year career in private equity.
@@ -16,9 +16,9 @@ const Document = () => {
         <span>Currently on the lookout for new investment opportunities at <a href="http://gem.capital/about"> GEM Capital</a>.</span>*/}
         {/*<span>Selected projects:  [TODO]</span>*/}
         {/*<br/>*/}
-        <div className="line"><span><span className="position"> GEM Capital, Investment Manager</span> | Moscow → Paphos, Cyprus </span> <span>Jan 2019 – currently</span></div>
-        <div className="line"><span><span className="position"> Volga Group, Analyst → Project Manager</span> | Moscow </span> <span>Dec 2014 – Dec 2018</span></div>
-        <div className="line"><span><span className="position"> Ernst&Young, Consultant → Senior Consultant</span> | Moscow </span> <span>Aug 2011 – Oct 2014</span></div>
+        <div className="line"><span><span className="position"> GEM Capital, Investment Manager</span>&nbsp;| Moscow&nbsp;→&nbsp;Paphos,&nbsp;Cyprus&nbsp;🏝</span> <span>Jan&nbsp;2019&nbsp;–&nbsp;currently</span></div>
+        <div className="line"><span><span className="position"> Volga Group, Analyst → Project Manager</span>&nbsp;| Moscow </span> <span>Dec&nbsp;2014&nbsp;–&nbsp;Dec&nbsp;2018</span></div>
+        <div className="line"><span><span className="position"> Ernst&Young, Consultant → Senior Consultant</span>&nbsp;| Moscow</span> <span>Aug&nbsp;2011&nbsp;–&nbsp;Oct&nbsp;2014</span></div>
         <br/>
 
         <span className="chapter">Certificates</span>

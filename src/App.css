@@ -21,19 +21,22 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   /* For mobile phones: */
   .container {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
+/*  .window {
+    width: 800vw;
+  }*/
 }
 
 .window {
   z-index: auto;
-  /*min-width: 500px;*/
+  max-width: 42em;
   /*min-width: 42em;*/
-  width: 42em;
+  width: 100%;
   text-align: left;
   /*border: 1px solid #93a1a1;
   border-radius: 10px;

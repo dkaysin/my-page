@@ -11,17 +11,19 @@
   font-family: 'Source Code Pro', Menlo, Monaco, Consolas, monospace;
 }
 
+
+
 .code {
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  /*gap: 0.5em;*/
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   /*color: #93a1a1;*/
   color: #586e75;
   font-size: 0.8em;
   font-family: inherit;
-  white-space: pre; /*THIS iS THE PROBLEM*/
+  /*white-space: pre-wrap; */
   /*word-wrap: break-word;*/
 }
 .code a{
@@ -87,7 +89,7 @@
 }
 
 .loading::after {
-  content: "|";
+  content: "";
   position: absolute;
   display: inline-block;
   vertical-align: top;
