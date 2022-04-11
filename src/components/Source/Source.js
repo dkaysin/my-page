@@ -99,7 +99,7 @@ const Source = ({renderRef}) => {
         />
         <CodeLine
           text={<>
-              {renderRef("Linear Algebra and Geometry", 999)},
+              {renderRef("Linear Algebra and Geometry", 11)},
             </>}
           tab={3}
         />
@@ -111,7 +111,7 @@ const Source = ({renderRef}) => {
         />
         <CodeLine
           text={<>
-              {renderRef("Real Analysis 1-2", 999)},
+              {renderRef("Real Analysis 1-2", 13)},
             </>}
           tab={3}
         />
