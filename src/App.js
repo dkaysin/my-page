@@ -54,9 +54,7 @@ class Main extends React.Component {
         <meta name="description" content="Dmitry Kaysin's personal homepage" />
         <link rel="icon" href="/favicon.ico"/>
         <div className="window">
-{/*          <div className="titlebgholder"> 
-            <div className="titlebg"/>
-          </div>*/}
+          {/*<div className="title-bg-holder"><div className="title-bg"/></div>*/}
           <div className="title">
             <span>Dmitry Kaysin</span>
             <span>
@@ -66,7 +64,7 @@ class Main extends React.Component {
                 handleToggle = {() => this.setState({page : !page})}
               />
             </span>
-          </div>        
+          </div>
           {this.state.page ? <Source renderRef={this.renderRef}/> : <Document/>}
           <Popup 
             show = {this.state.show}

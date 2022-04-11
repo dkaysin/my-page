@@ -20,37 +20,37 @@ a:hover {
 }
 
 .window {
-  z-index: 999;
+  z-index: auto;
   /*min-width: 500px;*/
-  /*max-width: 900px;*/
-  width:  42em;
+  /*min-width: 42em;*/
+  width: 42em;
   text-align: left;
-  /*border: 1px solid #93a1a1;*/
+  /*border: 1px solid #93a1a1;
   border-radius: 10px;
   box-shadow: 0px 7px 30px 8px rgba(128, 128, 128, 0.5);
+  */
 }
 
-/*.titlebgholder {
+/*.title-bg-holder {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  top: 2.6em;
+  width: 42em;
+  height: 50%;
+}
+
+.title-bg {
   position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.titlebg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fdf6e3;
-  height: 2.5em;
-}
-*/
+  height: 1em;
+  background-color: #D1CCC0;
+}*/
 
 .title {
+  z-index: 2;
   /*position: sticky;*/
-  top: 0;
+  top: -1px;
   display: flex;
   flex-direction: row;
   gap: 1em;
