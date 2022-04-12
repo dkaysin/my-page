@@ -22,15 +22,9 @@ const Document = () => {
         <br/>
 
         <span className="chapter">Certificates</span>
-        <span>
-          <span>Data-driven product management by <a href="https://simulator.gopractice.ru/certificate/53b0ec52-e48e-4e7c-9028-7b1c74dd07dd">Go Practice! Simulator</a></span>
-        </span>
-        <span>
-          <span>CFA Charterholder (<a href="https://www.cfainstitute.org/en/programs/cfa">Chartered Financial Analyst</a>)</span>
-        </span>
-        <span>
-          <span>Certified FRM (<a href="https://www.garp.org/frm">Financial Risk Manager</a>)</span>
-        </span>
+        <p>Data-driven product management by <a href="https://simulator.gopractice.ru/certificate/53b0ec52-e48e-4e7c-9028-7b1c74dd07dd">Go Practice! Simulator</a></p>
+        <p>CFA Charterholder (<a href="https://www.cfainstitute.org/en/programs/cfa">Chartered Financial Analyst</a>)</p>
+        <p>Certified FRM (<a href="https://www.garp.org/frm">Financial Risk Manager</a>)</p>
         <br/>
 
         <span className="chapter">Education</span>
@@ -39,9 +33,9 @@ const Document = () => {
         <br/>
 
         <div className="line"><span className="chapter">Hobbies</span></div>
-        <span>Music composition, audio recording and sound design;</span>
-        <span>Travel photography;</span>
-        <span>Losing skill in squash; dabbling in tennis.</span>
+        <p>Music composition, audio recording and sound design;</p>
+        <p>Travel photography;</p>
+        <p>Losing skill in squash; dabbling in tennis.</p>
 
       </div>
       
