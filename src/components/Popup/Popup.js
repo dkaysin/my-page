@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 
 
 const popupDict = {
-  999: () => {return (<span>TODO</span>)},
+  999: () => {return (<span>Description will be added later ;)</span>)},
   11 : () => {return (
     <>
       <p>Vector spaces: abstract linear and affine spaces, dual space, linear maps;</p>
@@ -33,8 +33,8 @@ const popupDict = {
   22 : () => {return (<span>Grade is based on programming assignments in Java</span>)},
   31: () => {return (
     <>
-      <p>Language features: recursion, currying, list comprehensions, maps, folds, algebraic types, higher order functions, strict vs lazy evaluation, monads and monad transformers, concurrency (atomic operations), parallelization, lenses; </p> <br/>
-      <p>Functional data structures: stacks, queues, double-ended queues, sets, binary and rose trees, list and tree zippers; </p> <br/>
+      <p>Language features: recursion, currying, list comprehensions, maps, folds, algebraic types, higher order functions, strict vs lazy evaluation, monads and monad transformers, concurrency (atomic operations), parallelization, lenses; </p>
+      <p>Functional data structures: stacks, queues, double-ended queues, sets, binary and rose trees, list and tree zippers; </p> 
       <p>Algorithms and applications: operations on trees (traversing, searching, reparenting, path finding), dynamic programming with memoization, parsing, domain-specific language interpretation, state machines </p>
     </>
     )}
