@@ -129,7 +129,7 @@ const Source = ({renderRef}) => {
         />
         <CodeLine
           text={<>
-              {renderRef("Differential Geometry", 999)}, //&nbsp;<span className="loading">in&nbsp;progress</span>
+              {renderRef("Differential Geometry", 999)}, <span className="loading">//&nbsp;in&nbsp;progress</span>
             </>}
           tab={3}
         />

@@ -95,10 +95,10 @@
   vertical-align: top;
   /*width: 0.5em;*/
   /*height: 1em;*/
-  animation: dots 3s step-end infinite;
+  animation: progress 3s step-end infinite;
 }
 
-@keyframes dots {
+@keyframes progress {
   0% { content: ""; }
   10% { content: "."; }
   20% { content: ".."; }
