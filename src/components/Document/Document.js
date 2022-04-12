@@ -4,7 +4,7 @@ const Document = () => {
   return (
     <div className="document">
       <div className="page">
-        <span className="headline">Experienced investment professional with proven track record in project management and strong quantitative background.</span>
+        <span className="headline">Experienced project manager with proven track record in finance, strong quantitative background and passion for math and computer science.</span>
         <span className="chapter">Work Experience</span>
         <span>
           I have worn many hats as a project manager during my 7 year career in private equity.
