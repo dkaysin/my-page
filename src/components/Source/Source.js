@@ -7,7 +7,7 @@ const RIGHT_CURLY = `}`;
 const CodeLine = ({text, tab}) => {
   const SYMBOL_WIDTH = 0.605;
   const TAB_WIDTH = 2;
-  let style = {"padding-left":tab*TAB_WIDTH*SYMBOL_WIDTH+"em"}
+  let style = {"paddingLeft":tab*TAB_WIDTH*SYMBOL_WIDTH+"em"}
   return (
     <div style={style}>
       {text}
@@ -36,11 +36,11 @@ const Source = ({renderRef}) => {
           tab={1}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Python</span>,{spaces(5)} //&nbsp;numpy, pandas, matplotlib</>}
+          text={<><span className="keywordGrey">Python</span>,{spaces(5)} //&nbsp;numpy, pandas, matplotlib, requests</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Go</span>,{spaces(9)} //&nbsp;Toy&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Go</span>,{spaces(9)} //&nbsp;Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
@@ -48,11 +48,15 @@ const Source = ({renderRef}) => {
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Javascript</span>,{spaces(1)} // react.js,&nbsp;node.js. Toy&nbsp;project:&nbsp;[&nbsp;this&nbsp;webpage&nbsp;]</>}
+          text={<><span className="keywordGrey">Javascript</span>,{spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;this&nbsp;page&nbsp;]</>}
           tab={2}
         />    
         <CodeLine
           text={<><span className="keywordGrey">SQL, MongoDB</span>,</>}
+          tab={2}
+        />
+        <CodeLine
+          text={<><span className="keywordGrey">Familiar with unit testing</span>,</>}
           tab={2}
         />     
         <CodeLine
@@ -60,7 +64,7 @@ const Source = ({renderRef}) => {
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Deployment with Heroku, GitHub Pages</span>,</>}
+          text={<><span className="keywordGrey">Experience with deployment to Heroku, GitHub Pages</span>,</>}
           tab={2}
         />
         <CodeLine

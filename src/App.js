@@ -1,6 +1,7 @@
-// import logo from './logo.svg';
 import './App.css';
+
 import React from 'react';
+
 import Switch from "./components/Switch/Switch";
 import Popup from "./components/Popup/Popup";
 import Document from "./components/Document/Document";
@@ -12,8 +13,20 @@ class Main extends React.Component {
 
   constructor(props) {
     super(props);
+
+    let page = sessionStorage.getItem("page");
+    if (page === 'true') {
+      page = true;
+    }
+    else if (page === 'false') {
+      page = false;
+    }
+    else {
+      page = false;
+    }
+
     this.state = {
-      page : false,
+      page : page,
       show : false,
       id : 0,
       x : 0,
@@ -44,7 +57,7 @@ class Main extends React.Component {
   }
 
   render() {
-    let page = this.state.page;
+    const page = this.state.page;
     return (
       <div 
         className="container" 
@@ -61,10 +74,13 @@ class Main extends React.Component {
               <Switch
                 isOn={page}
                 onColor="#859900"
-                handleToggle = {() => this.setState({page : !page})}
+                handleToggle = {() => {
+                  this.setState({page : !page});
+                  sessionStorage.setItem("page", !page);
+                }}
               />
             </span>
-          </div>
+          </div>      
           {this.state.page ? <Source renderRef={this.renderRef}/> : <Document/>}
           <Popup 
             show = {this.state.show}
