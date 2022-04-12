@@ -48,7 +48,7 @@ const Source = ({renderRef}) => {
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Javascript</span>,{spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;this&nbsp;page&nbsp;]</>}
+          text={<><span className="keywordGrey">Javascript</span>,{spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
           tab={2}
         />    
         <CodeLine
@@ -56,13 +56,13 @@ const Source = ({renderRef}) => {
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Familiar with unit testing</span>,</>}
-          tab={2}
-        />     
-        <CodeLine
           text={<><span className="keywordGrey">Git</span>,</>}
           tab={2}
         />
+        <CodeLine
+          text={<><span className="keywordGrey">Familiar with unit testing</span>,</>}
+          tab={2}
+        />     
         <CodeLine
           text={<><span className="keywordGrey">Experience with deployment to Heroku, GitHub Pages</span>,</>}
           tab={2}
