@@ -109,25 +109,25 @@ const Source = ({renderRef}) => {
         />
         <CodeLine
           text={<>
-              {renderRef("Algebra 1-2", 999)},
-            </>}
-          tab={3}
-        />
-        <CodeLine
-          text={<>
               {renderRef("Real Analysis 1-2", 13)},
             </>}
           tab={3}
         />
         <CodeLine
           text={<>
-              {renderRef("Analysis on Manifolds", 999)},
+              {renderRef("Algebra 1-2", 12)},
             </>}
           tab={3}
         />
         <CodeLine
           text={<>
-              {renderRef("Topology 1-2", 999)},
+              {renderRef("Analysis on Manifolds", 15)},
+            </>}
+          tab={3}
+        />
+        <CodeLine
+          text={<>
+              {renderRef("Topology 1-2", 14)},
             </>}
           tab={3}
         />
