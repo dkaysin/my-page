@@ -18,8 +18,8 @@ const popupDict = {
       <p>Foundations: sets, relations, functions, bijections, Cantor–Bernstein theorem, well-ordered sets, induction, axiom of choice, Zorn's lemma;</p>
       <p>Field ℝ: axiom of completeness, sequences, limits, series, Cauchy sequences;</p>
       <p>Metric spaces: complete metric spaces, completion, normed spaces, Baire category theorem, compactness, Hausdorff spaces, Cantor set;</p>
-      <p>Continuous maps: Pointwise and uniform convergence, Brouwer fixed-point theorem;</p>
-      <p>Differentiation: Differentiable functions, theorems of Rolle, Lagrange, Cauchy, mean value theorem, L'Hospital's rule, Taylor series.</p>
+      <p>Continuous maps: pointwise and uniform convergence, Brouwer fixed-point theorem;</p>
+      <p>Differentiation: differentiable functions, theorems of Rolle, Lagrange, Cauchy, mean value theorem, L'Hospital's rule, Taylor series.</p>
       <p> Professor: <a href="https://www.hse.ru/en/org/persons/104695101">Stanislav V. Shaposhnikov</a> </p>
     </>
   )},
