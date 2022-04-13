@@ -2,8 +2,8 @@
 
 .terminal {
   border-bottom: 1.5px solid #93a1a1;
-  border-left: 1.5px solid #93a1a1;
-  border-right: 1.5px solid #93a1a1;
+  border-left: 1px solid #93a1a1;
+  border-right: 1px solid #93a1a1;
   padding: 0.5em;
   background: #002b36;
   border-bottom-left-radius: 9px;

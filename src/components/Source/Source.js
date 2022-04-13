@@ -1,5 +1,6 @@
 import './Source.css';
 import Flipper from '../Flipper/Flipper';
+import { useMediaQuery } from 'react-responsive';
 
 const LEFT_CURLY = `{`;
 const RIGHT_CURLY = `}`;
@@ -16,8 +17,10 @@ const CodeLine = ({text, tab}) => {
   )
 }
 
-const spaces = n => {return (
-    "\xa0".repeat(n)
+const Spaces = n => {
+  let isMobile = useMediaQuery({ query: `(max-width: 900px)` });
+  return (
+    "\xa0".repeat(isMobile ? 0 : n)
   ) 
 }
 
@@ -36,19 +39,19 @@ const Source = ({renderRef}) => {
           tab={1}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Python</span>,{spaces(5)} //&nbsp;numpy, pandas, matplotlib, requests</>}
+          text={<><span className="keywordGrey">Python</span>,{Spaces(5)} //&nbsp;numpy, pandas, matplotlib, requests</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Go</span>,{spaces(9)} //&nbsp;Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Go</span>,{Spaces(9)} //&nbsp;Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Haskell</span>,{spaces(4)} //&nbsp;Completed {renderRef("96\xa0exercises", 31)} in&nbsp;Exercism. Solutions:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/exercism-haskell">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Haskell</span>,{Spaces(4)} //&nbsp;Completed {renderRef("96\xa0exercises", 31)} in&nbsp;Exercism [&nbsp;<a href="https://github.com/dkaysin/exercism-haskell">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Javascript</span>,{spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Javascript</span>,{Spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
           tab={2}
         />    
         <CodeLine

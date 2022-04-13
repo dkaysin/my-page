@@ -68,8 +68,8 @@ a:hover {
   flex-direction: row;
   gap: 0.5em;
   border-top: 1.5px solid #B2AEAA;
-  border-left: 1.5px solid #B2AEAA;
-  border-right: 1.5px solid #B2AEAA;
+  border-left: 1px solid #B2AEAA;
+  border-right: 1px solid #B2AEAA;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 2.5em;

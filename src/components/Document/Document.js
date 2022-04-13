@@ -8,7 +8,7 @@ const Document = () => {
         <span className="chapter">Work Experience</span>
         <span>
           I have worn many hats as a project manager during my 7 year career in private equity.
-          Before that, I worked in management consulting, specializing in complex financial modelling.
+          Before that, I&nbsp;worked in management consulting, specializing in complex financial modelling.
           Currently on the lookout for new investment opportunities at <a href="http://gem.capital/about"> GEM Capital</a>.
         </span>
         {/*<span>I have worn many hats as a project manager during my 6 year career in private equity.</span>
