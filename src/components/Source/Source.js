@@ -35,23 +35,23 @@ const Source = ({renderRef}) => {
           tab={0}
         />
         <CodeLine
-          text={<>"<span className="keywordGrey">Programming</span>": [</>}
+          text={<>"<span className="keywordFill">Programming</span>": [</>}
           tab={1}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Python</span>,{Spaces(5)} //&nbsp;numpy, pandas, matplotlib, requests</>}
+          text={<><span className="keywordGrey">Python</span>,{Spaces(6)} //&nbsp;numpy, pandas, matplotlib, requests</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Go</span>,{Spaces(9)} //&nbsp;Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Go</span>,{Spaces(10)} //&nbsp;Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/mfw-bot">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Haskell</span>,{Spaces(4)} //&nbsp;Completed {renderRef("96\xa0exercises", 31)} in&nbsp;Exercism [&nbsp;<a href="https://github.com/dkaysin/exercism-haskell">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Haskell</span>,{Spaces(5)} //&nbsp;Completed {renderRef("96\xa0exercises", 31)} in&nbsp;Exercism [&nbsp;<a href="https://github.com/dkaysin/exercism-haskell">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Javascript</span>,{Spaces(1)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Javascript</span>,{Spaces(2)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
           tab={2}
         />    
         <CodeLine
@@ -77,7 +77,7 @@ const Source = ({renderRef}) => {
         <br/>
 
         <CodeLine
-          text={<>"<span className="keywordGrey">Computer science</span>": [</>}
+          text={<>"<span className="keywordFill">Computer science</span>": [</>}
           tab={1}
         />
         <CodeLine
@@ -91,7 +91,7 @@ const Source = ({renderRef}) => {
         <br/>
         
         <CodeLine
-          text={<>"<span className="keywordGrey">Math</span>": {LEFT_CURLY}</>}
+          text={<>"<span className="keywordFill">Mathematics</span>": {LEFT_CURLY}</>}
           tab={1}
         />
         <CodeLine
@@ -100,10 +100,11 @@ const Source = ({renderRef}) => {
         />
         <CodeLine
           text={<>
-              // Proof-based math courses from professors <Flipper normal="of HSE an" hovered="of ВШЭ an"/><Flipper normal="d MSU Math" hovered="d МГУ Math"/> departments
+              // Proof-based math courses from professors of leading math {renderRef("departments", 3)} in Russia
             </>}
           tab={3}
         />
+            {/*// <Flipper normal="Russia (HSE a" hovered="Russia (ВШЭ a"/><Flipper normal="nd MSU)" hovered="nd МГУ)"/>*/}
         <CodeLine
           text={<>
               {renderRef("Linear Algebra and Geometry", 11)},
@@ -156,7 +157,7 @@ const Source = ({renderRef}) => {
 
         <CodeLine
           text={<>
-              "<span className="keywordGrey">Current research interests</span>": [
+              "<span className="keywordFill">Research interests</span>": [
             </>}
           tab={1}
         />

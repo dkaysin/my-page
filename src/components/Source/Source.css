@@ -42,9 +42,13 @@
   color: #b58900;
 }
 
-
 .keywordGrey {
   color: #93a1a1;
+}
+
+.keywordFill {
+  background-color: #b58900;
+  color: #FFFFFF;
 }
 
 .footerCode {
