@@ -39,7 +39,7 @@ const Source = ({renderRef}) => {
           tab={1}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Python</span>,{Spaces(6)} //&nbsp;numpy, pandas, matplotlib, requests. Toy&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/PortfolioDemo">link</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Python</span>,{Spaces(6)} //&nbsp;numpy, pandas, matplotlib, requests. Pet&nbsp;project:&nbsp;[&nbsp;<a href="https://github.com/dkaysin/visualline">link</a>&nbsp;]</>}
           tab={2}
         />
         <CodeLine
@@ -51,7 +51,7 @@ const Source = ({renderRef}) => {
           tab={2}
         />
         <CodeLine
-          text={<><span className="keywordGrey">Javascript</span>,{Spaces(2)} // react.js,&nbsp;node.js. Toy&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
+          text={<><span className="keywordGrey">Javascript</span>,{Spaces(2)} // react.js,&nbsp;node.js. Pet&nbsp;project:&nbsp;[&nbsp;<a href="">this&nbsp;page</a>&nbsp;]</>}
           tab={2}
         />    
         <CodeLine
