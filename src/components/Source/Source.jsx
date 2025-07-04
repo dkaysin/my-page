@@ -1,5 +1,5 @@
 import './Source.css';
-import Flipper from '../Flipper/Flipper';
+import Flipper from '../Flipper/Flipper.jsx';
 import { useMediaQuery } from 'react-responsive';
 
 const LEFT_CURLY = `{`;
@@ -183,9 +183,9 @@ const Source = ({renderRef}) => {
       <div className="footerCode"> 
         <div className="blinking">
           <span>
-            > built with 
-            {} <span className="keywordBlue">react.js</span> >>
-            {} <a href="https://github.com/dkaysin/my-page">source code</a>
+            {'>'} built with 
+            <span className="keywordBlue">react.js</span> {'>'}
+            <a href="https://github.com/dkaysin/my-page">source code</a>
           </span>
         </div>
       </div>

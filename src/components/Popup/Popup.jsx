@@ -57,7 +57,7 @@ const popupDict = {
   15 : () => {return ( // Analysis on manifolds
     <>
       {/*<p></p>*/}
-      {/*<p><span className="keywordOrange">___</span>: </p>*/}
+      {/*<p><span className="keywordOrange">___</span>: */}
       <p> Professor: <a href="https://www.hse.ru/en/org/persons/104695101">Stanislav V. Shaposhnikov</a> </p>
       <p><span className="keywordOrange">Fundamentals</span>: surfaces in Euclidean space and manifolds with and without boundary, tangent space, orientation;</p>
       <p><span className="keywordOrange">Smooth maps</span>: differentials, Whitney embedding theorem, Sard's theorem, degree of smooth map;</p>
