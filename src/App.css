@@ -11,8 +11,6 @@ a:hover {
 }
 
 .container {
-  /*height: 100vh;*/
-  /*min-height: 50vh;*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -27,9 +25,6 @@ a:hover {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-/*  .window {
-    width: 800vw;
-  }*/
 }
 
 .window {
@@ -44,25 +39,8 @@ a:hover {
   
 }
 
-/*.title-bg-holder {
-  pointer-events: none;
-  z-index: 1;
-  position: absolute;
-  top: 2.6em;
-  width: 42em;
-  height: 50%;
-}
-
-.title-bg {
-  position: sticky;
-  top: 0;
-  height: 1em;
-  background-color: #D1CCC0;
-}*/
-
 .title {
   z-index: 2;
-  /*position: sticky;*/
   top: -1px;
   display: flex;
   flex-direction: row;
@@ -74,7 +52,6 @@ a:hover {
   border-top-right-radius: 10px;
   height: 2.5em;
   align-items: center;
-  /*padding: 0.3em;*/
   padding-left: 0.5em;
   padding-right: 0.5em;
   background: rgb(69,64,61);

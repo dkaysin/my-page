@@ -8,7 +8,6 @@ import Document from "./components/Document/Document";
 import Source from "./components/Source/Source";
 import Ref from "./components/Ref/Ref";
 
-
 class Main extends React.Component {
 
   constructor(props) {
@@ -67,7 +66,6 @@ class Main extends React.Component {
         <meta name="description" content="Dmitry Kaysin's personal homepage" />
         <link rel="icon" href="/favicon.ico"/>
         <div className="window">
-          {/*<div className="title-bg-holder"><div className="title-bg"/></div>*/}
           <div className="title">
             <span>Dmitry Kaysin</span>
             <span>

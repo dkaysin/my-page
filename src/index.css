@@ -8,7 +8,6 @@ html {
   padding: 0;
   margin: 0;
   font-size: 18px;
-  /*cursor: default;*/
 }
 
 p {
@@ -18,7 +17,6 @@ p {
 
 
 @media only screen and (max-width: 900px) {
-  /* For mobile phones: */
   html {
     font-size: 18px;
   }
