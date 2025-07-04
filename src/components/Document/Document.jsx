@@ -11,7 +11,8 @@ const Document = () => {
           Before that, I&nbsp;worked in management consulting, specializing in complex financial modeling.
           Currently on the lookout for new investment opportunities at <a href="http://gem.capital/about"> GEM Capital</a>.
         </span>
-        <div className="line"><span><span className="position"> GEM Capital, Investment Manager</span>&nbsp;| Moscow&nbsp;→&nbsp;Paphos,&nbsp;Cyprus&nbsp;🏝</span> <span>Jan&nbsp;2019&nbsp;–&nbsp;currently</span></div>
+        <div className="line"><span><span className="position"> GEM Capital, Advisor</span>&nbsp;| Paphos,&nbsp;Cyprus&nbsp;🏝</span> <span>Jun&nbsp;2022&nbsp;–&nbsp;currently</span></div>
+        <div className="line"><span><span className="position"> GEM Capital, Investment Manager</span>&nbsp;| Moscow&nbsp;</span> <span>Jan&nbsp;2019&nbsp;–&nbsp;May 2022</span></div>
         <div className="line"><span><span className="position"> Volga Group, Analyst → Project Manager</span>&nbsp;| Moscow </span> <span>Dec&nbsp;2014&nbsp;–&nbsp;Dec&nbsp;2018</span></div>
         <div className="line"><span><span className="position"> Ernst&Young, Consultant → Senior Consultant</span>&nbsp;| Moscow</span> <span>Aug&nbsp;2011&nbsp;–&nbsp;Oct&nbsp;2014</span></div>
         <br/>
