@@ -11,7 +11,7 @@ const Document = () => {
         </span>
         <span className="chapter">Work Experience</span>
         <span>
-          I have worn many hats as a project manager during my 7 year career in
+          I have worn many hats as a project manager during my career in
           private equity. Before that, I&nbsp;worked in management consulting,
           specializing in complex financial modeling. Currently on the lookout
           for new investment opportunities at{" "}
@@ -26,7 +26,7 @@ const Document = () => {
         </div>
         <div className="line">
           <span>
-            <span className="position"> GEM Capital, Investment Manager</span>
+            <span className="position"> GEM Capital, Corporate Development Associate</span>
             &nbsp;| Moscow&nbsp;
           </span>{" "}
           <span>2019&nbsp;–&nbsp;2022</span>
