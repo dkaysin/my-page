@@ -14,14 +14,14 @@
   background: grey;
   border-radius: 1em;
   position: relative;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
   margin-left: -4px;
   margin-right: 5px;
   margin-top: 4px;
 }
 
 .react-switch-label .react-switch-button {
-  content: '';
+  content: "";
   position: absolute;
   top: 0.1em;
   left: 0.1em;
@@ -36,12 +36,24 @@
 }
 
 @keyframes pulse {
-  0% { width: 0.8em; }
-  7% { width: 0.95em; }
-  14% { width: 0.8em; }
-  21% { width: 0.95em; }
-  28% { width: 0.8em; }
-  100% { width: 0.8em; }
+  0% {
+    width: 0.8em;
+  }
+  7% {
+    width: 0.95em;
+  }
+  14% {
+    width: 0.8em;
+  }
+  21% {
+    width: 0.95em;
+  }
+  28% {
+    width: 0.8em;
+  }
+  100% {
+    width: 0.8em;
+  }
 }
 
 .react-switch-container {
