@@ -1,15 +1,11 @@
-import './Ref.css';
+import "./Ref.css";
 
-const Ref = ({text, onClick, onMouseDown}) => {
+const Ref = ({ text, onClick, onMouseDown }) => {
   return (
-    <span 
-      className = "ref" 
-      onClick = {onClick}
-      onMouseDown = {onMouseDown}
-    >
+    <span className="ref" onClick={onClick} onMouseDown={onMouseDown}>
       {text}
     </span>
-  )
-}
+  );
+};
 
 export default Ref;

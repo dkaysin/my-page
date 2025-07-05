@@ -1,26 +1,31 @@
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
 
-const Spaces = n => {
+const Spaces = (n) => {
   let isMobile = useMediaQuery({ query: `(max-width: 900px)` });
-  return (
-    "\xa0".repeat(isMobile ? 0 : n)
-  ) 
-}
+  return "\xa0".repeat(isMobile ? 0 : n);
+};
 
-const TechStack = ({renderRef}) => {
-  const skills = ["Golang", "Python", "PostgreSQL", "Elasticsearch", "Redis", "Kafka", "Google Cloud"];
+const TechStack = () => {
+  const skills = [
+    "Golang",
+    "Python",
+    "PostgreSQL",
+    "Elasticsearch",
+    "Redis",
+    "Kafka",
+    "Google Cloud",
+  ];
   return (
     <>
-
-      {
-        skills
-          .map((v, i) => {
-              return (
-                <span className="keywordGrey" key={i}>{v}</span>
-              )
-            })
-          .reduce((prev, curr) => [prev, ', ', curr])
-      }
+      {skills
+        .map((v, i) => {
+          return (
+            <span className="keywordGrey" key={i}>
+              {v}
+            </span>
+          );
+        })
+        .reduce((prev, curr) => [prev, ", ", curr])}
 
       {/* <span className="keywordGrey">Go</span>,
       {Spaces(10)}
@@ -46,9 +51,8 @@ const TechStack = ({renderRef}) => {
 
       <span className="keywordGrey">SQL, MongoDB</span>,
       <br /> */}
-
     </>
-  )
-}
+  );
+};
 
 export default TechStack;

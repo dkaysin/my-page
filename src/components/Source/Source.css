@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 .terminal {
   border-bottom: 1.5px solid #93a1a1;
@@ -8,10 +8,8 @@
   background: #002b36;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
-  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, monospace;
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
 }
-
-
 
 .code {
   display: flex;
@@ -26,8 +24,8 @@
   /*white-space: pre-wrap; */
   /*word-wrap: break-word;*/
 }
-.code a{
-    color:#93a1a1;
+.code a {
+  color: #93a1a1;
 }
 
 .keywordGreen {
@@ -48,7 +46,7 @@
 
 .keywordFill {
   background-color: #b58900;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footerCode {
@@ -57,8 +55,8 @@
   font-size: 0.7em;
   font-family: inherit;
 }
-.footerCode a{
-    color:#93a1a1;
+.footerCode a {
+  color: #93a1a1;
 }
 
 /*.line {
@@ -68,7 +66,7 @@
   justify-content: left;
 }*/
 
-.blinking { 
+.blinking {
   position: relative;
   display: inline-block;
 }
@@ -87,12 +85,18 @@
 }
 
 @keyframes blink {
-  0% { opacity: 1.0; }
-  60% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.loading { 
+.loading {
   position: relative;
   display: inline-block;
 }
@@ -108,8 +112,16 @@
 }
 
 @keyframes progress {
-  0% { content: ""; }
-  10% { content: "."; }
-  20% { content: ".."; }
-  30% { content: "..."; }
+  0% {
+    content: "";
+  }
+  10% {
+    content: ".";
+  }
+  20% {
+    content: "..";
+  }
+  30% {
+    content: "...";
+  }
 }
